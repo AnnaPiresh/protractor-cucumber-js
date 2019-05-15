@@ -1,0 +1,23 @@
+{
+  "name": "protractor-cucumber",
+  "version": "1.0.0",
+  "description": "Test project for integration of Protractor framework and Cucumber",
+  "main": "conf.js",
+  "scripts": {
+    "test": "protractor conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/AnnaPiresh/protractor-cucumber-js"
+  },
+  "author": "Anna Vaylenko",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "cucumber": "^5.1.0",
+    "protractor": "^5.4.2"
+  },
+  "devDependencies": {
+    "protractor-cucumber-framework": "^6.1.1"
+  }
+}
