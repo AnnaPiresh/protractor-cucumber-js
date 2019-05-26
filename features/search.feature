@@ -1,7 +1,7 @@
 Feature: Verify user can search using Google
 
   Background:
-    Given user opens Google homepage
+    Given user opens "Google" homepage
 
   Scenario: Verify user can search for a search term
     When user enters search term "Epam"
