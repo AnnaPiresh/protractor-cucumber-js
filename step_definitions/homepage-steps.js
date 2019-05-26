@@ -18,7 +18,7 @@ When('user enters search term {string}', async (string) => {
   term = string;
 });
 
-When('presses Enter on keyboard', async () => {
+When('user searches for a term', async () => {
   await homepage.submit();
 });
 
