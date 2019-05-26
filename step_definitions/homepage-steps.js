@@ -9,7 +9,8 @@ let term = '';
 
 
 Given('user opens {string} homepage', (string) => {
-  homepage.open(browser.baseUrl, string);
+  homepage.open(browser.baseUrl);
+  expect(browser.getTitle()).to.eventually.equal(string);
 });
 
 When('user enters search term {string}', async (string) => {
