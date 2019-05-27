@@ -18,6 +18,7 @@ exports.config = {
     ],
     cucumberOpts: {
       require: 'step_definitions/homepage-steps.js',
+      format: [require.resolve('cucumber-pretty')],
       tags: false,
       profile: false,
       'no-source': true
